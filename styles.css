@@ -31,7 +31,8 @@ body {
 }
 
 main {
-    background: linear-gradient(var(--dark-blue), hsl(213, 33%, 11%) 95%);
+    /* background: linear-gradient(var(--dark-blue), hsl(213, 33%, 11%) 95%); */
+    background: radial-gradient(90% 50% at 50% 0%, var(--dark-blue), hsl(213, 33%, 11%));
     padding: 2rem;
     width: 25rem;
     border-radius: 24px;
