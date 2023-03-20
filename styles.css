@@ -62,7 +62,7 @@ main {
 }
 
 .rating-prompt > p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.3rem;
 }
 
@@ -97,6 +97,7 @@ main {
     border: none;
     border-radius: 24px;
     padding: 1rem;
+    font-size: 1rem;
 }
 
 .rating-state > button:hover {
