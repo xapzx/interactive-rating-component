@@ -10,31 +10,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Interactive rating component</title>
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-  <!-- Rating state start -->
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
+  <main>
+    <div class="rating-state">
+      <div class="star-container">
+        <img src="images/icon-star.svg" alt="Star icon">
+      </div>
+      <div class="rating-prompt">
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div class="rating-numbers">
+        <div class="rating one">1</div>
+        <div class="rating two">2</div>
+        <div class="rating three">3</div>
+        <div class="rating four">4</div>
+        <div class="rating five">5</div>
+      </div>
+      <button class="submit">S U B M I T</button>
+    </div>
+    <div class="thank-state">
+      <picture>
+        <img src="images/illustration-thank-you.svg" alt="Thank you icon">
+      </picture>
+      <div class="selected-rating">You selected <span class="selected"></span> out of 5</div>
+      <div class="thank-container">
+        <div class="thank">Thank you!</div>
+        <p class="thank-appreciation">
+          We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
