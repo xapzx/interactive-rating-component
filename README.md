@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of Desktop Design](./screenshot/screenshot.png)
+![Screenshot of Desktop Design](./screenshot/screenshot-rating-state.png)
+![Screenshot of Desktop Design](./screenshot/screenshot-thank-state.png)
 
 ### Links
 
